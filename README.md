@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Configuration of eslint taken from Brian Holt's (https://github.com/btholt) awesome Complete Intro To React course on Frontend Masters. The material for this course can be found at https://btholt.github.io/complete-intro-to-react-v5/.
+
 ## Available Scripts
 
 In the project directory, you can run:
