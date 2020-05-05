@@ -1,7 +1,12 @@
 import React from "react";
+import { Box, Heading } from "grommet";
 
 function Home() {
-  return <h2>Home</h2>;
+  return (
+    <Box>
+      <Heading alignSelf="center">Home</Heading>
+    </Box>
+  );
 }
 
 export default Home;
