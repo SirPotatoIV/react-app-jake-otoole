@@ -1,11 +1,17 @@
 import React from "react";
-import { Box, Heading } from "grommet";
+import { Box, Heading, Main } from "grommet";
+import ProfileCard from "../components/ProfileCard";
 
 function Home() {
   return (
-    <Box>
-      <Heading alignSelf="center">Home</Heading>
-    </Box>
+    <Main pad="medium">
+      <Box>
+        <Heading alignSelf="center">Home</Heading>
+      </Box>
+      <Box>
+        <ProfileCard />
+      </Box>
+    </Main>
   );
 }
 
