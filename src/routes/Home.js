@@ -18,7 +18,7 @@ function Home() {
   }
 
   useEffect(function () {
-    getUsers();
+    // getUsers();
   }, []);
 
   return (
