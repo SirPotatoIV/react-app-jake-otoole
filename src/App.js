@@ -9,11 +9,9 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import { theme } from "./theme";
 
-jsonConversion();
-
 function App() {
   return (
-    <Grommet theme>
+    <Grommet theme={theme}>
       <Router>
         <div>
           <Navbar />
