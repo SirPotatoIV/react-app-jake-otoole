@@ -1,10 +1,23 @@
 import React from "react";
-import { Box } from "grommet";
+import { Box, Image, Text } from "grommet";
 
-export default function ProfileCard() {
+export default function ProfileCard({ user }) {
   return (
-    <Box>
-      <h1>Test</h1>
+    <Box
+      pad="medium"
+      margin="medium"
+      alignSelf="center"
+      alignContent="center"
+      border="all"
+    >
+      <Text>
+        First Name: {user.name.first} Last Name: {user.name.last}
+      </Text>
+      <Box>
+        <Image src={user.picture.medium} fill={false} fit="contain" />
+      </Box>
+      <Text>Address: {user.location.country}</Text>
+      <Text>Email: {user.email}</Text>
     </Box>
   );
 }
